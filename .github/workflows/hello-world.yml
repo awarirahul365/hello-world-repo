@@ -9,6 +9,6 @@ jobs:
             - name: Checkout Repo
               uses: actions/checkout@v4
 
-            - name: Run Repo
+            - name: Echo text
               run: |
                 echo "Hello, world!"
